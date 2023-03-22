@@ -97,7 +97,7 @@ body::before {
     border-radius: 2rem;
     color: var(--clr-neutral);
     width: 20rem;
-    aspect-ratio: 2 / 1;
+    height: 10rem;
     display: grid;
     place-content: center;
     font-size: var(--fs-1);
