@@ -61,11 +61,11 @@ body {
     background-repeat: no-repeat;
     color: var(--clr-neutral);
     display: grid;
-    font-family: 'Oswald', sans-serif;
     place-content: center;
-    height: 100vh;
+    font-family: 'Oswald', sans-serif;
     font-size: var(--fs-2);
     font-weight: var(--fw-normal);
+    height: 100vh;
 }
 
 body::before {
@@ -84,6 +84,8 @@ body::before {
     border-radius: 1rem;
     display: grid;
     place-content: center;
+    justify-self: center;
+    align-self: center;
     gap: 1.5rem;
     max-width: 40rem;
     padding: 3rem;
