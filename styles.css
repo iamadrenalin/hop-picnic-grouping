@@ -66,6 +66,7 @@ body {
     font-size: var(--fs-2);
     font-weight: var(--fw-normal);
     height: 100vh;
+    overflow: hidden;
 }
 
 body::before {
@@ -89,7 +90,7 @@ body::before {
     gap: 1.5rem;
     max-width: 40rem;
     padding: 3rem;
-    margin: auto 1rem;
+    margin-inline: 1rem;
     z-index: 1;
 }
         
