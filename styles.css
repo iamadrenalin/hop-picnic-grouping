@@ -89,7 +89,7 @@ body::before {
     gap: 1.5rem;
     max-width: 40rem;
     padding: 3rem;
-    margin-inline: 1rem;
+    margin: auto 1rem;
     z-index: 1;
 }
         
